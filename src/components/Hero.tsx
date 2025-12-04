@@ -145,7 +145,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              We're a collective of esoteric engineers shipping production-grade data infrastructure, 
+              We're a collective of engineers shipping production-grade data infrastructure, 
               AI systems, and full-stack applications for startups that move fast.
             </motion.p>
             <motion.div 
