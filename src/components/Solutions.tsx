@@ -14,7 +14,7 @@ const solutions = [
       'Analytics Engineering',
       'Real-time Processing',
     ],
-    tech: ['Airflow', 'dbt', 'Snowflake', 'Kafka'],
+    tech: ['Airflow', 'dbt', 'Snowflake', 'Fivetran'],
   },
   {
     icon: Brain,
@@ -26,7 +26,7 @@ const solutions = [
       'LLM Fine-tuning',
       'Vector Databases',
     ],
-    tech: ['OpenAI', 'LangChain', 'Pinecone', 'Anthropic'],
+    tech: ['OpenAI', 'LangChain', 'pgvector', 'Anthropic'],
   },
   {
     icon: Code2,
