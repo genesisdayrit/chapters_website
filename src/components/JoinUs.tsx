@@ -145,7 +145,7 @@ export function JoinUs() {
                 whileHover={{ scale: 1.03, transition: { type: "spring", stiffness: 400, damping: 17 } }}
               >
                 <motion.div
-                  whileHover={{ rotate: 360, scale: 1.2, transition: { type: "spring", stiffness: 200, damping: 15 } }}
+                  whileHover={{ rotate: 8, scale: 1.05, transition: { type: "spring", stiffness: 300, damping: 20 } }}
                 >
                   <Icon className="w-8 h-8 text-green-400 mb-4" />
                 </motion.div>
