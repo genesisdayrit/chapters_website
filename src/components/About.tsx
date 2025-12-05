@@ -25,8 +25,8 @@ export function About() {
               data foundations the right way from day one.
             </p>
             <p className="text-gray-600 mb-8">
-              No junior consultants. No hand-offs. You work directly with senior engineers 
-              who have solved the problems you're facing.
+              Direct, hands-on collaboration with engineers who bring both adaptability 
+              and a methodical approach to every challenge.
             </p>
 
             <div className="space-y-4">
