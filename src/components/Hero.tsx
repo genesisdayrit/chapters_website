@@ -155,7 +155,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.6 }}
             >
               <Zap className="w-4 h-4 text-yellow-400 flex-shrink-0 mt-1" />
-              <span>Handpicked senior engineers delivering enterprise quality at startup speed.</span>
+              <span>Handpicked engineers delivering enterprise quality at startup speed.</span>
             </motion.div>
           </div>
 
