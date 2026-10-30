@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import { SHOW_TEAM } from '../config';
 
 export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ export function Navigation() {
     { id: 'team', label: 'Team' },
     { id: 'join', label: 'Join Us' },
     { id: 'blog', label: 'Blog' },
-  ];
+  ].filter((item) => item.id !== 'team' || SHOW_TEAM);
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-md border-b border-white/10">
