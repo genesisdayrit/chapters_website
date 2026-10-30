@@ -7,6 +7,7 @@ import { Blog } from './components/Blog';
 import { Inquire } from './components/Inquire';
 import { Navigation } from './components/Navigation';
 import { CircuitBoard } from './components/CircuitBoard';
+import { SHOW_TEAM } from './config';
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
         <Hero />
         <Solutions />
         <Portfolio />
-        <Team />
+        {SHOW_TEAM ? <Team /> : null}
         <JoinUs />
         <Blog />
         <Inquire />
